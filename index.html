@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Prime FC</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #000;
+      color: #fff;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 40px;
+    }
+    nav a {
+      color: #ccc;
+      margin-left: 20px;
+      text-decoration: none;
+    }
+    section {
+      padding: 60px 40px;
+    }
+    .hero {
+      text-align: center;
+      padding: 120px 20px;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #111;
+      border-radius: 16px;
+      padding: 20px;
+      text-align: center;
+    }
+    .number {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background: #333;
+      margin: 0 auto 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #777;
+    }
+    button {
+      background: white;
+      color: black;
+      border: none;
+      padding: 15px 30px;
+      border-radius: 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>PRIME FC</h1>
+  <nav>
+    <a href="#team">Команда</a>
+    <a href="#matches">Матчи</a>
+    <a href="#join">Вступить</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Мы стремимся быть в своём прайме</h2>
+  <p>Prime FC — команда, основанная на вере, дисциплине и желании побеждать.</p>
+  <button>Присоединиться</button>
+</section>
+
+<section id="team">
+  <h2>Состав Prime FC</h2>
+  <div class="cards">
+    <div class="card">
+      <div class="number">7</div>
+      <h3>Hasanov</h3>
+      <p>Нападающий</p>
+    </div>
+    <div class="card">
+      <div class="number">8</div>
+      <h3>Mehraj</h3>
+      <p>Защитник</p>
+    </div>
+    <div class="card">
+      <div class="number">10</div>
+      <h3>Bashirov</h3>
+      <p>Полузащитник</p>
+    </div>
+    <div class="card">
+      <div class="number">5</div>
+      <h3>Qafarzade</h3>
+      <p>Защитник</p>
+    </div>
+  </div>
+</section>
+
+<section id="matches">
+  <h2>Последние матчи</h2>
+  <p>Prime FC 2–2 Aura FC</p>
+  <p>Prime FC 1–4 Aura FC</p>
+  <p>Prime FC 2–3 Aura FC</p>
+</section>
+
+<section id="join">
+  <h2>Стань частью Prime FC</h2>
+  <p>Forza Prime! Sempre Prime!</p>
+  <button>Подать заявку</button>
+</section>
+
+<footer>
+  © 2025 Prime FC. Все права защищены.
+</footer>
+
+</body>
+</html>
